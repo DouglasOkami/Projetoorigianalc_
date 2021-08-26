@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/r.da.silva.ferreira/Desktop/Projeto original/Criando variaveis /Criando variaveis.csproj",
+      "projectUniqueName": "/Users/r.da.silva.ferreira/Documents/Projeto original/Criando variaveis /Criando variaveis.csproj",
       "projectName": "Criando variaveis",
-      "projectPath": "/Users/r.da.silva.ferreira/Desktop/Projeto original/Criando variaveis /Criando variaveis.csproj",
+      "projectPath": "/Users/r.da.silva.ferreira/Documents/Projeto original/Criando variaveis /Criando variaveis.csproj",
       "packagesPath": "/Users/r.da.silva.ferreira/.nuget/packages/",
-      "outputPath": "/Users/r.da.silva.ferreira/Desktop/Projeto original/Criando variaveis /obj/",
+      "outputPath": "/Users/r.da.silva.ferreira/Documents/Projeto original/Criando variaveis /obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/r.da.silva.ferreira/.nuget/NuGet/NuGet.Config"
