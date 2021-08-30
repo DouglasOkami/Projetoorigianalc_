@@ -29,9 +29,7 @@ namespace AtividadeSimNao
                     if(resposta == 'S'){
                         simMulher++;
                     }
-                }// fim primeiro else
-
-                // fim segundo else
+                }
                 contPessoas ++;
             } while (contPessoas < 4);//fim while
 
@@ -39,7 +37,6 @@ namespace AtividadeSimNao
             Console.WriteLine($"A quantidade de pessoas que falatam não = {contPessoas - (simHomem + simMulher)}");
             Console.WriteLine($"A quantidade de mulheres que falaram sim = {simMulher} ");
             Console.WriteLine($"A porcentagem de homens que responderam NÃO entre todos os homens analisados = {(((double)contHomens - (double)simHomem) / (double)contHomens)  * 100}%");
-
         }//fim
     }
 }
