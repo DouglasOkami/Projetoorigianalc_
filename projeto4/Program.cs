@@ -6,9 +6,10 @@ namespace imparPar
     {
         static void Main(string[] args)
         {
-         int[] par = new int[6];
+            int[] par = new int[6];
+            int[] impar = new int[6];
             int[] numero = new int[6];
-            int contador = 0;
+            int contadorPar = 0, contadorImpar = 0;
 
             for (int i = 0; i < 6; i++)
             {
@@ -16,16 +17,28 @@ namespace imparPar
                 numero[i] = int.Parse(Console.ReadLine());
                 if ((numero[i] % 2) == 0)
                 {
-                    par[contador] = numero[i];
-                    contador++;
+                    par[contadorPar] = numero[i];
+                    contadorPar++;
+                }
+                else
+                {
+                    impar[contadorImpar] = numero[i];
+                    contadorImpar++;
                 }
             }
-
             Console.WriteLine($"Os numeros pares são :");
-            for (int i = 0; i < contador; i++)
+
+            for (int i = 0; i < contadorPar; i++)
             {
-                Console.Write($"{par[i]}, ");
-            }   
+                Console.Write($" {par[i]}, ");
+            }
+
+            Console.WriteLine($"\nOs numeros impares são :");
+
+            for (int i = 0; i < contadorImpar; i++)
+            {
+                Console.Write($"{impar[i]}, ");
+            }
         }
     }
 }
