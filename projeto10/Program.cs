@@ -8,7 +8,6 @@ namespace projeto10
         {
             double litrosGasolina = 0, litrosAlcool = 0, totalA = 0, totalG = 0, valorG = 0, valorA = 0, valorPA = 0, valorPG = 0, descontG = 0, descontA = 0, descontPA = 0, descontPG = 0;
             double A = 4.90, G = 5.30;
-
             string opcao;
             Console.WriteLine("-------------------------------------Bem vindo ao Posto Ipanema--------------------------------");
             Console.WriteLine("Digite 1 para Alcool e está R$ 4,90");
